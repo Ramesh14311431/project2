@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./paris.css">
+    <script src="https://kit.fontawesome.com/8a7057cf25.js" crossorigin="anonymous"></script>
+    <style>
+        .back{
+            filter: blur(6px);
+           
+        }
+        .pop{
+            width: 400px;
+            height: 180px;
+            position: fixed;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: red;
+            border: 2px solid red;
+            border-radius: 10px;
+            background-color: white;
+
+        }
+        .botton{
+            color: white;
+            background-color: red;
+            width: 70px;
+            height: 30px;
+            padding-top: 10pxS;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="back">
+        
+     <center>
+        <div class="top hrline"><hr class="hr1"></div>
+         <div class="top">Trip To Paris</div>
+         <div class="top hrline"><hr class="hr1"></div>
+         <br><br><br>
+         <div class="back"><a href="./index.html"><i class="fas fa-arrow-circle-left" style="color: red;"></i></a> Back</div>
+         <br><br><br>
+         <div class="box">
+             <p style="font-size: 30px;">Trip To Paris</p>
+             <hr style="margin-left: 100px;">
+             <P class="line" style="text-decoration: line-through;">Completed</p>
+             <form>
+                 <input type="checkbox" name="panding task" value="panding task" id="pending task">
+                 <label for="panding task" style="color: black;">Pending Task</label>
+             </form>
+            <a href="./paeispopup.html" ><i class="fas fa-plus-circle add" style="color: red;"></i></a> 
+         </div>
+         
+      </center>
+    </div>
+    <div class="pop">
+      <center>
+        <p>Add New Item</p>
+        <input type="text" name="item" id="item" style="border: 1px solid red; border-radius: 6px; height: 30px;"><br><br>
+        <div class="botton">
+            <a href="#xyz" style="text-decoration: none; color: white;">ADD</a>
+        </div>
+      </center>
+    </div>
+
+</body>
+</html>
